@@ -1,5 +1,7 @@
 # React Circular Text
 
+ [![react-circular-text-demo](https://raw.githubusercontent.com/parsagholipour/react-circular-text/master/public/circular-text-demo.gif)](https://github.com/parsagholipour/react-circular-text)
+
 A tiny React component to draw text around a circle, optionally with center icon. **Zero dependencies. (1KB Gzipped)**
 
 ## Install
