@@ -22,7 +22,7 @@ import ReactCircularText from "react-circular-text";
 </ReactCircularText>
 ```
 
-## Props (essentials)
+## Props
 
 | Prop            | Type                                | Default                 | Purpose                              |
 | --------------- | ----------------------------------- | ----------------------- | ------------------------------------ |

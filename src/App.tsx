@@ -10,7 +10,7 @@ const App: React.FC = () => {
   /* ------------------------------------------------------------ */
   /* State for each exposed prop                                  */
   /* ------------------------------------------------------------ */
-  const [text, setText] = useState("mahoorism    shop    ");
+  const [text, setText] = useState("Circular      Text      ");
   const [emoji, setEmoji] = useState("🚀");
   const [width, setWidth] = useState(140);
   const [textColor, setTextColor] = useState("#000000");
