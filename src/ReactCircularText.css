@@ -1,0 +1,48 @@
+/* ------- global spin keyframe --------------------------------- */
+@keyframes circular-spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+/* ------- container: the whole badge --------------------------- */
+.circular-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: transparent;
+    animation: circular-spin linear infinite;
+    text-align: center;
+}
+
+/* ------- ring -------------------------------------------------- */
+.circular-band {
+    position: absolute;
+    inset: 0;
+    border-style: solid;  /* colour & width are injected inline */
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+/* ------- centre icon / emoji ---------------------------------- */
+.circular-emoji {
+    display: block;
+    animation: circular-spin linear infinite reverse;
+}
+.circular-emoji svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* ------- the individual glyph boxes --------------------------- */
+.circular-char {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;    /* start at the top edge */
+    transform-origin: bottom center;
+    pointer-events: none;
+}
