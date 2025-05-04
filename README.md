@@ -40,17 +40,6 @@ import ReactCircularText from "react-circular-text";
 | `speedSecs`     | `number`                            | `20`                    | Seconds per full rotation            |
 | `baselineRatio` | `number`                            | `0.4`                   | Fine‑tune baseline‑to‑ring alignment |
 
-## Demo
-
-Clone the repo and run:
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) and tweak the form to see the component update live.
-
 ## License
 
 MIT
